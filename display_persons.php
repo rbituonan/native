@@ -1,3 +1,8 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+</head>
+<body>
 <?php
 // include "db.config.inc.php";
 
@@ -34,3 +39,5 @@ if( $myrow = mysqli_fetch_array($result) ){
 //process the results
 echo "<br /><b>Total Records: " . mysqli_num_rows($result)."</b>";
 ?>
+</body>
+</html>
