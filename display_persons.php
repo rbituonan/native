@@ -1,8 +1,6 @@
 <html>
 <head>
-<style type="text/css">
-body { background-color: pink; }
-</style>
+<link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
 <body>
 <?php
