@@ -1,3 +1,10 @@
+<html>
+<head>
+<style type="text/css">
+body { background-color: pink; }
+</style>
+</head>
+<body>
 <?php
 // include "db.config.inc.php";
 
@@ -34,3 +41,5 @@ if( $myrow = mysqli_fetch_array($result) ){
 //process the results
 echo "<br /><b>Total Records: " . mysqli_num_rows($result)."</b>";
 ?>
+</body>
+</html>
